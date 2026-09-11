@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Maya's Experiment</title>
+  <title>Maya's Experiment ✷</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,305 +18,257 @@
 
   <!-- NAV -->
   <nav class="nav">
-
     <a href="#" class="logo">MAYA✷</a>
 
-    <div class="nav-links">
-      <a href="#experiment">THE EXPERIMENT</a>
-      <a href="#campaign">CAMPAIGN</a>
-      <a href="#strategy">WHY IT WORKS</a>
-      <a href="maya-case-study.html">CASE STUDY</a>
+    <div class="nav-right">
+      <span>AN EXPERIMENT IN EVERYDAY STYLE</span>
+      <a href="maya-case-study.html">CASE STUDY ↗</a>
     </div>
-
   </nav>
 
 
-  <!-- HERO -->
-  <header class="hero">
+  <!-- MAIN -->
+  <main class="playground">
 
-    <div class="hero-copy">
+    <!-- DECORATIONS -->
+    <div class="scribble scribble-one">hmm... ✷</div>
+    <div class="scribble scribble-two">try this!</div>
+    <div class="scribble scribble-three">wait... this is cute</div>
 
-      <p class="eyebrow">HI, I'M MAYA ✷</p>
-
-      <h1>FASHION<br>CONTENT<br>CREATOR.</h1>
-
-      <p class="hero-description">
-        I like experimenting with clothes, creating new combinations
-        and finding ways to make the same wardrobe feel completely different.
-      </p>
-
-      <a href="#experiment" class="hero-button">
-        START THE EXPERIMENT →
-      </a>
-
-    </div>
+    <div class="sticker sticker-pink">NEW<br>PLAN!</div>
+    <div class="sticker sticker-yellow">✦ EXPERIMENT</div>
+    <div class="sticker sticker-blue">MAYA'S<br>WARDROBE</div>
 
 
-    <div class="hero-visual">
+    <!-- MAYA -->
+    <div class="maya-stage">
 
-      <div class="hero-frame"></div>
+      <div class="pink-shape"></div>
+      <div class="lilac-shape"></div>
 
       <img
-        src="Maya.png"
-        alt="Maya fashion content creator illustration"
-        class="maya-image"
+        src="images/maya.png"
+        alt="Maya fashion creator"
+        class="maya"
       >
 
-      <span class="doodle doodle-one">hmm... ✷</span>
-      <span class="doodle doodle-two">try this!</span>
-
-    </div>
-
-    <div class="scroll-hint">
-      SCROLL TO EXPERIMENT ↓
-    </div>
-
-  </header>
-
-
-  <!-- EXPERIMENT -->
-  <section class="experiment section" id="experiment">
-
-    <div class="section-top">
-
-      <div>
-        <p class="eyebrow">THE EXPERIMENT ✷</p>
-
-        <h2>
-          SAME WARDROBE.<br>
-          <em>NEW PLANS.</em>
-        </h2>
+      <div class="maya-caption">
+        <span>MEET MAYA</span>
+        <strong>fashion creator<br>& professional outfit overthinker.</strong>
       </div>
 
-      <p class="section-intro">
-        What if your wardrobe isn't actually boring?
-        What if you just haven't experimented enough?
+    </div>
+
+
+    <!-- TITLE -->
+    <section class="intro">
+
+      <p class="eyebrow">WELCOME TO THE EXPERIMENT ✷</p>
+
+      <h1>
+        MAYA'S<br>
+        <em>EXPERIMENT.</em>
+      </h1>
+
+      <p class="intro-copy">
+        Same wardrobe.<br>
+        New plans.
       </p>
 
-    </div>
+      <div class="arrow-note">↓ click around</div>
+
+    </section>
 
 
-    <div class="plan-grid">
+    <!-- INTERACTIVE MENU -->
+    <div class="experiment-menu">
 
-      <div class="plan-card card-one">
-        <span class="plan-letter">A</span>
-        <h3>CLASS</h3>
-        <p>Comfortable. Easy. Still cute.</p>
-        <span class="plan-arrow">↗</span>
-      </div>
+      <button class="experiment-button pink-button" data-modal="idea">
+        <span>01</span>
+        THE IDEA
+        <b>↗</b>
+      </button>
 
-      <div class="plan-card card-two">
-        <span class="plan-letter">B</span>
-        <h3>CAFÉ</h3>
-        <p>Casual, but make it intentional.</p>
-        <span class="plan-arrow">↗</span>
-      </div>
+      <button class="experiment-button lilac-button" data-modal="campaign">
+        <span>02</span>
+        THE CAMPAIGN
+        <b>↗</b>
+      </button>
 
-      <div class="plan-card card-three">
-        <span class="plan-letter">C</span>
-        <h3>COLLEGE EVENT</h3>
-        <p>Same pieces. A little more effort.</p>
-        <span class="plan-arrow">↗</span>
-      </div>
+      <button class="experiment-button blue-button" data-modal="content">
+        <span>03</span>
+        THE CONTENT
+        <b>↗</b>
+      </button>
 
-      <div class="plan-card card-four">
-        <span class="plan-letter">D</span>
-        <h3>DINNER</h3>
-        <p>Last-minute? We can work with that.</p>
-        <span class="plan-arrow">↗</span>
-      </div>
-
-    </div>
-
-
-    <div class="experiment-statement">
-
-      <span>THE THOUGHT ✷</span>
-
-      <h3>
-        Your wardrobe isn't boring.<br>
-        You just haven't experimented enough.
-      </h3>
+      <button class="experiment-button yellow-button" data-modal="strategy">
+        <span>04</span>
+        THE THINKING
+        <b>↗</b>
+      </button>
 
     </div>
 
-  </section>
+
+    <!-- SMALL BOTTOM NOTE -->
+    <div class="bottom-note">
+      <span>✷</span>
+      your wardrobe isn't boring.
+      <span>✷</span>
+    </div>
+
+  </main>
 
 
-  <!-- CAMPAIGN -->
-  <section class="campaign section" id="campaign">
+  <!-- =========================
+       IDEA MODAL
+  ========================== -->
 
-    <div class="campaign-heading">
+  <div class="modal" id="idea">
 
-      <p class="eyebrow">THE CAMPAIGN ✷</p>
+    <div class="modal-window idea-window">
+
+      <button class="close-modal">×</button>
+
+      <p class="modal-label">01 / THE IDEA</p>
+
+      <div class="idea-content">
+
+        <div>
+          <p class="handwriting">okay, hear me out...</p>
+
+          <h2>
+            YOUR WARDROBE<br>
+            ISN'T BORING.
+          </h2>
+
+          <h3>
+            YOU JUST HAVEN'T<br>
+            EXPERIMENTED ENOUGH.
+          </h3>
+        </div>
+
+        <div class="idea-note">
+          <span>THE OBSERVATION ✷</span>
+
+          <p>
+            Students don't necessarily need
+            more clothes. They need more
+            ideas for the clothes they already own.
+          </p>
+
+          <strong>→ So Maya decided to experiment.</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       CAMPAIGN MODAL
+  ========================== -->
+
+  <div class="modal" id="campaign">
+
+    <div class="modal-window campaign-window">
+
+      <button class="close-modal">×</button>
+
+      <p class="modal-label">02 / THE CAMPAIGN</p>
 
       <h2>
-        BUILD LESS.<br>
-        <em>STYLE MORE.</em>
+        SAME WARDROBE.<br>
+        <em>NEW PLANS.</em>
       </h2>
 
-      <p>
-        A social-first campaign that turns a small,
-        versatile wardrobe into multiple outfit possibilities.
-      </p>
+      <div class="campaign-tabs">
 
-    </div>
+        <button class="campaign-tab active" data-campaign="capsule">
+          01 CAPSULE
+        </button>
+
+        <button class="campaign-tab" data-campaign="ways">
+          02 ONE PIECE
+        </button>
+
+        <button class="campaign-tab" data-campaign="plans">
+          03 YOUR PLAN
+        </button>
+
+      </div>
 
 
-    <div class="campaign-grid">
+      <div class="campaign-display">
 
-
-      <!-- CAPSULE -->
-      <article class="campaign-card">
-
-        <div class="campaign-image">
-
-          <img
-            src="capsule.png"
-            alt="The Capsule campaign"
-          >
-
-          <span class="campaign-number">01</span>
-
+        <div class="campaign-visual">
+          <img id="campaignImage" src="images/capsule.png" alt="Campaign concept">
         </div>
 
-        <div class="campaign-card-info">
+        <div class="campaign-copy">
 
-          <span class="campaign-role">DISCOVER</span>
+          <span id="campaignRole">DISCOVER</span>
 
-          <h3>THE CAPSULE</h3>
+          <h3 id="campaignTitle">
+            THE CAPSULE
+          </h3>
 
-          <p>
-            Introduce a small collection of versatile,
-            student-friendly wardrobe pieces.
+          <p id="campaignDescription">
+            Introduce versatile, student-friendly
+            wardrobe pieces and show how much
+            possibility they can create.
           </p>
 
-        </div>
-
-      </article>
-
-
-      <!-- ONE PIECE -->
-      <article class="campaign-card">
-
-        <div class="campaign-image">
-
-          <img
-            src="three_ways.png"
-            alt="One Piece Three Ways campaign"
-          >
-
-          <span class="campaign-number">02</span>
+          <div class="campaign-arrow">
+            DISCOVER → EXPERIMENT → ENGAGE
+          </div>
 
         </div>
-
-        <div class="campaign-card-info">
-
-          <span class="campaign-role">EXPERIMENT</span>
-
-          <h3>ONE PIECE.<br>THREE WAYS.</h3>
-
-          <p>
-            Take one wardrobe staple and show how it can
-            work across different plans.
-          </p>
-
-        </div>
-
-      </article>
-
-
-      <!-- WHAT'S YOUR PLAN -->
-      <article class="campaign-card">
-
-        <div class="campaign-image">
-
-          <img
-            src="plans.png"
-            alt="What's Your Plan campaign"
-          >
-
-          <span class="campaign-number">03</span>
-
-        </div>
-
-        <div class="campaign-card-info">
-
-          <span class="campaign-role">ENGAGE</span>
-
-          <h3>WHAT'S<br>YOUR PLAN?</h3>
-
-          <p>
-            Turn outfit inspiration into a choice and
-            invite the audience to participate.
-          </p>
-
-        </div>
-
-      </article>
-
-    </div>
-
-
-    <!-- CONTENT JOURNEY -->
-
-    <div class="content-journey">
-
-      <p class="eyebrow">THE CONTENT JOURNEY ✷</p>
-
-      <div class="journey-line">
-
-        <span>DISCOVER</span>
-        <b>→</b>
-
-        <span>EXPERIMENT</span>
-        <b>→</b>
-
-        <span>ENGAGE</span>
-        <b>→</b>
-
-        <span>SHARE</span>
-        <b>→</b>
-
-        <span>SHOP</span>
 
       </div>
 
     </div>
 
-  </section>
+  </div>
 
 
-  <!-- STORIES -->
-  <section class="stories section">
+  <!-- =========================
+       CONTENT MODAL
+  ========================== -->
 
-    <div class="stories-heading">
+  <div class="modal" id="content">
 
-      <p class="eyebrow">THE STORY LAYER ✷</p>
+    <div class="modal-window content-window">
 
-      <h2>
-        DON'T JUST<br>
-        <em>SHOW.</em>
-      </h2>
+      <button class="close-modal">×</button>
 
-      <p>
-        Stories turn styling inspiration into something
-        the audience can actually participate in.
-      </p>
+      <p class="modal-label">03 / THE CONTENT</p>
 
-    </div>
+      <div class="content-heading">
 
-
-    <div class="stories-grid">
-
-
-      <div class="story-card">
-
-        <div class="story-top">
-          MAYA'S EXPERIMENT ✷
+        <div>
+          <h2>
+            DON'T JUST<br>
+            <em>SHOW.</em>
+          </h2>
         </div>
 
-        <div class="story-content">
+        <p>
+          Turn styling inspiration into
+          something the audience can
+          actually participate in.
+        </p>
+
+      </div>
+
+
+      <div class="content-cards">
+
+        <div class="content-card story-one">
+
+          <small>MAYA'S EXPERIMENT ✷</small>
 
           <span>MONDAY MOOD</span>
 
@@ -326,26 +278,19 @@
           </h3>
 
           <div class="poll">
-            <div>YES 😭</div>
-            <div>ALL THE TIME</div>
+            YES 😭
+          </div>
+
+          <div class="poll">
+            ALL THE TIME
           </div>
 
         </div>
 
-        <div class="story-bottom">
-          01 / TEASER
-        </div>
 
-      </div>
+        <div class="content-card story-two">
 
-
-      <div class="story-card story-pink">
-
-        <div class="story-top">
-          MAYA'S EXPERIMENT ✷
-        </div>
-
-        <div class="story-content">
+          <small>MAYA'S EXPERIMENT ✷</small>
 
           <span>CHOOSE YOUR LOOK</span>
 
@@ -355,26 +300,19 @@
           </h3>
 
           <div class="poll">
-            <div>A — CASUAL</div>
-            <div>B — ELEVATED</div>
+            A — CASUAL
+          </div>
+
+          <div class="poll">
+            B — ELEVATED
           </div>
 
         </div>
 
-        <div class="story-bottom">
-          02 / POLL
-        </div>
 
-      </div>
+        <div class="content-card story-three">
 
-
-      <div class="story-card story-blush">
-
-        <div class="story-top">
-          MAYA'S EXPERIMENT ✷
-        </div>
-
-        <div class="story-content">
+          <small>MAYA'S EXPERIMENT ✷</small>
 
           <span>YOUR TURN ✷</span>
 
@@ -383,185 +321,102 @@
             you always repeat?
           </h3>
 
-          <div class="question-box">
+          <div class="question">
             Type something...
           </div>
 
         </div>
 
-        <div class="story-bottom">
-          03 / QUESTION
-        </div>
-
       </div>
+
+      <p class="content-footer">
+        RELATE → STYLE → PARTICIPATE
+      </p>
 
     </div>
 
-  </section>
+  </div>
 
 
-  <!-- STRATEGY -->
-  <section class="strategy section" id="strategy">
+  <!-- =========================
+       STRATEGY MODAL
+  ========================== -->
 
-    <div class="strategy-heading">
+  <div class="modal" id="strategy">
 
-      <p class="eyebrow">THE STRATEGY ✷</p>
+    <div class="modal-window strategy-window">
+
+      <button class="close-modal">×</button>
+
+      <p class="modal-label">04 / THE THINKING</p>
 
       <h2>
         PRETTY IS NICE.<br>
         <em>STRATEGY IS BETTER.</em>
       </h2>
 
-    </div>
+      <div class="strategy-flow">
+
+        <button class="strategy-step active">
+          <span>01</span>
+          <strong>THE INSIGHT</strong>
+          <small>“I have nothing to wear.”</small>
+        </button>
+
+        <span class="flow-arrow">→</span>
+
+        <button class="strategy-step">
+          <span>02</span>
+          <strong>THE IDEA</strong>
+          <small>Build less. Style more.</small>
+        </button>
+
+        <span class="flow-arrow">→</span>
+
+        <button class="strategy-step">
+          <span>03</span>
+          <strong>THE ROLE</strong>
+          <small>Don't just show. Involve.</small>
+        </button>
+
+      </div>
 
 
-    <div class="strategy-grid">
+      <div class="strategy-detail">
 
-
-      <div class="strategy-card">
-
-        <span class="strategy-number">01</span>
-
-        <p class="strategy-label">THE INSIGHT</p>
+        <span>THE INSIGHT ✷</span>
 
         <h3>
-          “I HAVE<br>
-          NOTHING<br>
-          TO WEAR.”
-        </h3>
-
-        <p>
           Students may not lack clothes.
           They may lack styling ideas.
-        </p>
-
-      </div>
-
-
-      <div class="strategy-card featured">
-
-        <span class="strategy-number">02</span>
-
-        <p class="strategy-label">THE IDEA</p>
-
-        <h3>
-          BUILD LESS.<br>
-          STYLE MORE.
         </h3>
 
         <p>
-          Reframe the capsule wardrobe from
-          minimalist to experimental, social and useful.
-        </p>
-
-      </div>
-
-
-      <div class="strategy-card">
-
-        <span class="strategy-number">03</span>
-
-        <p class="strategy-label">THE ROLE OF CONTENT</p>
-
-        <h3>
-          DON'T JUST<br>
-          SHOW.<br>
-          INVOLVE.
-        </h3>
-
-        <p>
-          Use styling education and interactive
-          Stories to turn viewers into participants.
+          The campaign reframes the capsule wardrobe
+          from something minimalist and restrictive
+          into something experimental, social and useful.
         </p>
 
       </div>
 
     </div>
 
-
-    <!-- CONTENT SYSTEM -->
-
-    <div class="content-system">
-
-      <p class="eyebrow">CONTENT SYSTEM ✷</p>
-
-      <div class="content-system-grid">
-
-        <div>
-          <span>CAROUSELS</span>
-          <strong>EDUCATE</strong>
-        </div>
-
-        <div>
-          <span>REELS</span>
-          <strong>DISCOVER</strong>
-        </div>
-
-        <div>
-          <span>STORIES</span>
-          <strong>ENGAGE</strong>
-        </div>
-
-        <div>
-          <span>COMMUNITY</span>
-          <strong>RETURN</strong>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
+  </div>
 
 
-  <!-- FINAL CTA -->
-  <section class="final-cta">
+  <!-- FINAL -->
+  <footer class="mini-footer">
 
-    <p class="eyebrow">END OF EXPERIMENT ✷</p>
-
-    <h2>
-      SAME WARDROBE.<br>
-      <em>NEW POSSIBILITIES.</em>
-    </h2>
-
-    <p>
-      Because sometimes you don't need a new outfit.<br>
-      You just need a new idea.
-    </p>
-
-    <div class="cta-buttons">
-
-      <a href="maya-case-study.html" class="primary-button">
-        VIEW THE CASE STUDY →
-      </a>
-
-      <a href="#campaign" class="secondary-button">
-        REVISIT THE CAMPAIGN ↑
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    <div>
-      <strong>MAYA'S EXPERIMENT ✷</strong>
-
-      <p>
-        Campaign concept & social strategy by
-        Reeshal Dsouza.
-      </p>
-    </div>
+    <span>MAYA'S EXPERIMENT ✷</span>
 
     <a href="maya-case-study.html">
-      CASE STUDY →
+      WANT THE FULL STORY? →
     </a>
 
   </footer>
 
+
+  <script src="script.js"></script>
 
 </body>
 </html>
